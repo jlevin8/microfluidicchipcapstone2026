@@ -1,13 +1,13 @@
 
 # bamm_slice README adapted from https://github.com/namitn04/bamm_slice/tree/main
 
-This tool turns a 3D model (`.stl`) into a stack of black-and-white PNG images (layers) that the **CELLINK LumenX Gen-3** printer can use.
+This tool turns a 3D model (`.stl`) into a stack of black-and-white PNG images (layers) that the **CELLINK LumenX Gen-3** printer can use. These instructions are for MacOS users.
 
 ## 0) Download this project (no Git needed)
 
 1. On the GitHub page, click the green **Code** button → **Download ZIP**.  
 2. Double-click the ZIP to unzip it.  
-3. You now have a folder (probably called `bamm_slice-main`). We’ll use that.
+3. You now have a folder (probably called `microfluidicchipcapstone2026-main`). We’ll use that.
 
 > Tip: Put this folder somewhere easy, like your **Desktop**.
 
@@ -31,12 +31,12 @@ This tool turns a 3D model (`.stl`) into a stack of black-and-white PNG images (
 
 Do this the easy way:
 
-1. In **Finder**, open the `bamm_slice-main` folder (the one you unzipped).
+1. In **Finder**, open the folder (the one you unzipped).
 2. In Terminal, type `cd ` (type `c` + `d` + **space** but don’t press Enter yet).
-3. Drag the `bamm_slice-main` folder from Finder into the Terminal window (this pastes its full path).
+3. Drag the folder from Finder into the Terminal window (this pastes its full path).
 4. Press **Enter**.
 
-Your Terminal line should now end with `…/bamm_slice-main$`
+Your Terminal line should now end with `…/microfluidicchipcapstone2026-main$`
 
 ---
 
@@ -59,7 +59,7 @@ python3 -m pip install trimesh pillow numpy shapely scipy networkx rtree
 
 ## 4) Run the test (just copy and paste)
 
-Navigate to the `slicer` folder in the `bamm_slice-main` folder:
+Navigate to the `slicer` folder in the `grayscale` in the `microfluidicchipcapstone2026-main` folder:
 
 ```bash
 cd slicer
@@ -69,7 +69,7 @@ Then run:
 
 ```bash
 python3 repair_and_slice.py \
-  --stl Test.stl \
+  --stl 3X 20x1mm Cylinders.stl \
   --profile lumenx_gen3.json \
   --layer-mm 0.1 \
   --aa 1 \
@@ -78,7 +78,7 @@ python3 repair_and_slice.py \
 
 **What this does:**
 
-* Uses the included `Test.stl` model
+* Uses the included `.stl` model
 * Uses the included `lumenx_gen3.json` printer profile
 * Slices the model into **0.1 mm** (100 µm) layers
 * Saves PNG images into a new folder called **`Test_Output`**
@@ -118,9 +118,9 @@ python3 repair_and_slice.py \
 * On a Mac, you can **drag a file from Finder into Terminal** to paste its full path.
 
 ```bash
-python3 /Users/yourname/Desktop/bamm_slice-main/repair_and_slice.py \
+python3 /Users/yourname/Desktop/microfluidiccapstone2026-main/grayscale/slicer/repair_and_slice.py \
   --stl /Users/yourname/Desktop/Models/MyModel.stl \
-  --profile /Users/yourname/Desktop/bamm_slice-main/lumenx_gen3.json \
+  --profile /Users/yourname/Desktop/microfluidicchipcapstone2026-main//grayscale/slicer/lumenx_gen3.json \
   --layer-mm 0.1 \
   --aa 1 \
   --out /Users/yourname/Desktop/MyModel_Output
