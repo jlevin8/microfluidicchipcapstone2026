@@ -1,13 +1,7 @@
 
-# bamm_slice README taken from https://github.com/namitn04/bamm_slice/tree/main
+# bamm_slice README adapted from https://github.com/namitn04/bamm_slice/tree/main
 
-This tool turns a 3D model (`.stl`) into a stack of black-and-white PNG images (layers) that the **CELLINK LumenX Gen-3** printer can use.  
-I’ve included two files so you can test it right away:
-
-- `Test.stl` — a sample 3D model  
-- `lumenx_gen3.json` — the printer settings/profile for LumenX Gen-3
-
----
+This tool turns a 3D model (`.stl`) into a stack of black-and-white PNG images (layers) that the **CELLINK LumenX Gen-3** printer can use.
 
 ## 0) Download this project (no Git needed)
 
