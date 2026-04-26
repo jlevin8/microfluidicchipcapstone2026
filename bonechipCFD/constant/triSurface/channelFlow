@@ -1,0 +1,68 @@
+-------------------------------------------------------
+Version       : 4.15.1
+License       : GNU General Public License
+Build OS      : MacOSX
+Build date    : 20260216
+Build host    : gmsh.info
+Build options : 64Bit ALGLIB[contrib] ANN[contrib] Bamg Blas[petsc] Blossom Cgns DIntegration Dlopen DomHex Eigen[contrib] Fltk GMP Gmm[contrib] Hxt Jpeg Kbipack Lapack[petsc] MathEx[contrib] Med Mesh Metis[contrib] Mmg Mpeg Netgen Nii2mesh ONELAB ONELABMetamodel OpenCASCADE OpenCASCADE-CAF OpenGL OpenMP OptHom PETSc Parser Plugins Png Post QuadMeshingTools QuadTri Solver TetGen/BR TinyXML2[contrib] TouchBar Untangle Voro++[contrib] WinslowUntangler Zlib tinyobjloader
+FLTK version  : 1.4.0
+PETSc version : 3.15.0 (real arithmtic)
+OCC version   : 7.8.1
+MED version   : 4.1.0
+Packaged by   : geuzaine
+Web site      : https://gmsh.info
+Issue tracker : https://gitlab.onelab.info/gmsh/gmsh/issues
+-------------------------------------------------------
+Info    : Running '/Applications/Gmsh.app/Contents/MacOS/gmsh' [Gmsh 4.15.1, 1 node, max. 1 thread]
+Info    : Started on Mon Mar 16 16:54:36 2026
+Info    : Reading '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/mesh.msh'...
+Info    : 1651 entities
+Info    : 689 nodes
+Info    : 4028 elements
+Info    : Done reading '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/mesh.msh'
+Info    : Reading '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/mesh.msh'...
+Info    : 1651 entities
+Info    : 689 nodes
+Info    : 4028 elements
+Info    : Done reading '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/mesh.msh'
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Done
+Info    : Appending visibility info to '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/mesh.msh'...
+Info    : Done appending visibility info
+Info    : Appending visibility info to '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/mesh.msh'...
+Info    : Done appending visibility info
+Info    : Reading '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/constant/triSurface/channelFlow.stl'...
+Info    : Mesh is in binary format
+Info    : 1356 facets in solid 0 STLB ATF 14.24.0.0 COLOR=                                                  
+Info    : Done reading '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/constant/triSurface/channelFlow.stl'
+Info    : Done
+Info    : Removed 22 elements
+Info    : Removed 2 elements
+Info    : Writing '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/constant/triSurface/channelFlow'...
+Info    : Done writing '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/constant/triSurface/channelFlow'
+Info    : Removed 22 elements
+Info    : Removed 2 elements
+Info    : Writing '/Users/joshualevin/Desktop/OpenFoam/openfoam-master/bonechipCFD/constant/triSurface/channelFlow'...
